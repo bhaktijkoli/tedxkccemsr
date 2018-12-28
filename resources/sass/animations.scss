@@ -1,0 +1,125 @@
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(50%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInRight {
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-50%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeft {
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeOutRight {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(50%, 0, 0);
+  }
+}
+
+.fadeOutRight {
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+  animation-name: fadeOutRight;
+}
+
+@keyframes fadeOutLeft {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.fadeOutLeft {
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+  animation-name: fadeOutLeft;
+}
+
+@keyframes scale {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.scale {
+  animation-delay: 200ms;
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+  animation-name: scale;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade {
+  animation-delay: 200ms;
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+  animation-name: fade;
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: .15em solid $primary-color;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation-delay: 200ms;
+  animation:
+    typing 3.5s steps(40, end) 1s,
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: $primary-color; }
+}

@@ -1,0 +1,28 @@
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .section-title {
+    text-align: center;
+  }
+  .section-subtitle {
+    text-align: center;
+    font-size: 1em;
+    color: $inverse-color;
+  }
+  .section-body {
+    padding-top: 30px;
+  }
+}
+
+footer {
+  position: relative;
+  background: #131315;
+  width: 100%;
+  padding: 20px;
+}
