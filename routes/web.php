@@ -13,3 +13,7 @@
 
 Route::get('/', 'IndexController@index');
 Route::get('/{any}', 'IndexController@index')->where('any', '(.*)');
+
+Route::prefix('api')->group(function () {
+  Route::post('/contact', 'Api\ContactController@postContact');
+});

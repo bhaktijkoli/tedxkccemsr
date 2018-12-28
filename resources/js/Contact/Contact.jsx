@@ -17,7 +17,7 @@ class Contact extends Component {
             <div className="section-body">
               <div className="row">
                 <div className="col-sm-6">
-                  <form method="POST">
+                  <form method="POST" onSubmit={this.onSubmitContact.bind(this)}>
                     <div className="form-input">
                       <label>Fullname</label>
                       <input type="text" id="name" placeholder="Enter your fullname" />
@@ -34,7 +34,7 @@ class Contact extends Component {
                       <label>Message</label>
                       <textarea id="message" placeholder="Enter your message" rows="6"/>
                     </div>
-                    <button type="button" className="button">Send</button>
+                    <button type="submit" className="button">Send</button>
                   </form>
                 </div>
                 <div className="col-sm-6">
@@ -46,6 +46,36 @@ class Contact extends Component {
         </section>
       </div>
     );
+  }
+  onSubmitContact(e) {
+    e.preventDefault();
+    let data = {
+      name: document.getElementById('name').value,
+      email: document.getElementById('email').value,
+      subject: document.getElementById('subject').value,
+      message: document.getElementById('message').value,
+    }
+    axios.post('/api/contact/', data).then(res=>{
+      Swal({
+        title: 'Thankyou for contacting us!',
+        text: 'We will get in touch with you soon.',
+        confirmButtonText: 'Ok',
+        confirmButtonClass: 'button',
+        buttonsStyling: false,
+      });
+    }).catch(res=> {
+      if(res.response.status == 422) {
+        let errors = res.response.data.errors;
+        Swal({
+          title: 'Error!',
+          text: errors[Object.keys(errors)[0]][0],
+          type: 'error',
+          confirmButtonText: 'Ok',
+          confirmButtonClass: 'button',
+          buttonsStyling: false,
+        });
+      }
+    })
   }
 }
 
