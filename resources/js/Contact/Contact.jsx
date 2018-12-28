@@ -32,8 +32,9 @@ class Contact extends Component {
                     </div>
                     <div className="form-input">
                       <label>Message</label>
-                      <textarea id="message" placeholder="Enter your message"/>
+                      <textarea id="message" placeholder="Enter your message" rows="6"/>
                     </div>
+                    <button type="button" className="button">Send</button>
                   </form>
                 </div>
                 <div className="col-sm-6">
