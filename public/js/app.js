@@ -32651,7 +32651,15 @@ function (_Component) {
         className: "map",
         frameBorder: "0",
         allowFullScreen: true
-      })))))));
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        class: "list-icons"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        class: "fa fa-envelope-o"
+      }), "\xA0contact@tedxkccemsr.com"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        class: "fa fa-phone"
+      }), "\xA0+91 22 2532 6085 / 7100 / 6496 / 6062 / 6088"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        class: "fa fa-whatsapp"
+      }), "\xA09594477844"))))))));
     }
   }, {
     key: "onSubmitContact",

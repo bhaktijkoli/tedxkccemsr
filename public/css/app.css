@@ -2618,6 +2618,16 @@ footer {
   height: 348px;
   margin-top: 25px;
 }
+#contact .list-icons {
+  list-style: none;
+  padding-left: 0px;
+}
+#contact .list-icons li {
+  margin-bottom: 10px;
+}
+#contact .list-icons li .fa {
+  margin-right: 10px;
+}
 
 #speakers .backdrop {
   position: absolute;

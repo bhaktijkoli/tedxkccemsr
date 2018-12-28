@@ -14,6 +14,7 @@
   <title>TEDx KCCEMSR</title>
   <link rel="icon" type="image/ico" sizes="16x16" href="/img/tedfavicon.ico">
   <link rel="stylesheet" type="text/css" href="/css/app.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <div id="root"></div>

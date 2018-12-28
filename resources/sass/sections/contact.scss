@@ -5,4 +5,14 @@
     height: 348px;
     margin-top: 25px;
   }
+  .list-icons {
+    list-style: none;
+    padding-left: 0px;
+  }
+  .list-icons li {
+    margin-bottom: 10px;
+  }
+  .list-icons li .fa {
+    margin-right: 10px;
+  }
 }
