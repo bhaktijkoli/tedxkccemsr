@@ -32652,13 +32652,13 @@ function (_Component) {
         frameBorder: "0",
         allowFullScreen: true
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        class: "list-icons"
+        className: "list-icons"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-        class: "fa fa-envelope-o"
+        className: "fa fa-envelope-o"
       }), "\xA0tedxkccemsr@gmail.com"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-        class: "fa fa-phone"
+        className: "fa fa-phone"
       }), "\xA0+91 97570 52307"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-        class: "fa fa-whatsapp"
+        className: "fa fa-whatsapp"
       }), "\xA0+91 97570 52307"))))))));
     }
   }, {
@@ -32764,13 +32764,13 @@ function (_Component) {
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         id: "about"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        class: "backdrop"
+        className: "backdrop"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        class: "col-sm-12"
+        className: "col-sm-12"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         className: "section-title"
       }, "About"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -32778,15 +32778,15 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        class: "col-sm-6"
+        className: "col-sm-6"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "TED"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "TED is a nonprofit organization devoted to spreading ideas, usually in the form of short, powerful talks. TED began in 1984 as a conference where Technology, Entertainment and Design converged, and today covers almost all topics \u2014 from science to business to global issues \u2014 in more than 100 languages. It is a global community, welcoming people from every discipline and culture who seek a deeper understanding of the world.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        class: "col-sm-6"
+        className: "col-sm-6"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "TEDx"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "TEDx is an international community that organizes TED-style events anywhere and everywhere -- celebrating locally-driven ideas and elevating them to a global stage. TEDx events are produced independently of TED conferences, each event curates speakers on their own, but based on TED's format and rules.At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. These local, self-organized events are branded TEDx, where x = independently organized TED event.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        class: "col-sm-12"
+        className: "col-sm-12"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "What Is TEDxKCCEMSR?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "TEDxKCCEMSR is an independently organised TED- like event by K.C College Of Engineering And Management studies And Research. The scope of the event is to provide a platform where community-driven people can showcase their ideas and elevating them to a global stage. ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        class: "col-sm-12"
+        className: "col-sm-12"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        class: "theme center"
+        className: "theme center"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Theme"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "/img/theme.png"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "With the advent of modern technology, human sciences and habitat, the challenges we face have also changed. Thus, the traditional ways of tackling them fail. Here arises the need of redefining perspectives.\u2028"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Perspectives inspire decisions and your decisions fuel your actions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Similarly, each individual has his or her own perspective when placed in common circumstance. However, the most unorthodox, original, economically and environmentally profiting perspective thrives the longest in a race."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The famous Penrose triangle is recognized as 'Impossibility in it's purest form'. At first glance, it's a three shade triangle with no possible story to tell, but on further inspection the complexity of the Penrose triangle from every angle puts our thought into a paradoxical perspective of everything we see."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "We believe that making the impossible, possible is no lesser than an evolution of progress.\u2028\u2028All you need is a redefined perspective to look at problem, adapt a bright idea and live through it.")))))));
