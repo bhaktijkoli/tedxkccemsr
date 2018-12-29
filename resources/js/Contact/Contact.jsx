@@ -40,9 +40,9 @@ class Contact extends Component {
                 <div className="col-sm-6">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1584.396878799198!2d72.98002808733317!3d19.179818462852708!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4f1e032d9e4fc41!2sK+C+College+Of+Engineering+Management+Studies+And+Research!5e0!3m2!1sen!2sin!4v1514910475785" className="map" frameBorder="0" allowFullScreen></iframe>
                   <ul class="list-icons">
-                    <li><i class="fa fa-envelope-o"></i>&nbsp;contact@tedxkccemsr.com</li>
-                    <li><i class="fa fa-phone"></i>&nbsp;+91 22 2532 6085 / 7100 / 6496 / 6062 / 6088</li>
-                    <li><i class="fa fa-whatsapp"></i>&nbsp;9594477844</li>
+                    <li><i class="fa fa-envelope-o"></i>&nbsp;tedxkccemsr@gmail.com</li>
+                    <li><i class="fa fa-phone"></i>&nbsp;+91 97570 52307</li>
+                    <li><i class="fa fa-whatsapp"></i>&nbsp;+91 97570 52307</li>
                   </ul>
                 </div>
               </div>
