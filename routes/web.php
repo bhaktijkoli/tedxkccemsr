@@ -11,6 +11,23 @@
 |
 */
 
+Route::get('/update', function() {
+  chdir(base_path());
+  $res = exec('git reset --hard 2>&1', $output);
+  $res = $res . '<br />' . exec('git pull origin master 2>&1', $output);
+  return $res;
+});
+
+Route::get('/dbreset', function() {
+  chdir(base_path());
+  exec('php artisan migrate:refresh 2>&1', $output);
+  foreach ($output as $out) {
+    echo "$out</br>";
+  }
+  return "Done";
+});
+
+
 Route::get('/', 'IndexController@index');
 Route::get('/{any}', 'IndexController@index')->where('any', '(.*)');
 
