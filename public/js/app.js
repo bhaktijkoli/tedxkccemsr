@@ -33401,10 +33401,10 @@ function (_Component) {
 
 /***/ }),
 
-/***/ "./resources/js/Team/Team.jsx":
-/*!************************************!*\
-  !*** ./resources/js/Team/Team.jsx ***!
-  \************************************/
+/***/ "./resources/js/Team/Member.jsx":
+/*!**************************************!*\
+  !*** ./resources/js/Team/Member.jsx ***!
+  \**************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -33434,6 +33434,117 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
+var Member =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Member, _Component);
+
+  function Member(props) {
+    _classCallCheck(this, Member);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Member).call(this, props));
+  }
+
+  _createClass(Member, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var mem = this.refs.member;
+      setTimeout(function () {
+        mem.classList.remove('hidden');
+        mem.classList.add('fadeInLeft');
+      }, 100 * this.props.time);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "member hidden",
+        ref: "member"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "backdrop"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "https://via.placeholder.com/220x220"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+        className: "name"
+      }, this.props.member.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        className: "designation"
+      }, this.props.member.designation));
+    }
+  }]);
+
+  return Member;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(Member));
+
+/***/ }),
+
+/***/ "./resources/js/Team/Team.jsx":
+/*!************************************!*\
+  !*** ./resources/js/Team/Team.jsx ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
+/* harmony import */ var _Member__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Member */ "./resources/js/Team/Member.jsx");
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+
+var members = [{
+  name: "Rahul Nair",
+  designation: "Organizer"
+}, {
+  name: "Minal Acharya",
+  designation: "Curator"
+}, {
+  name: "Mayuresh Rane",
+  designation: "Logistics & production head"
+}, {
+  name: "Unmesh Sawant",
+  designation: "Co-organizer"
+}, {
+  name: "Simran Rane",
+  designation: "Marketing Director"
+}, {
+  name: "Atharv Parte",
+  designation: "Graphic Designer"
+}, {
+  name: "Abhishek Prajapati",
+  designation: "Graphic Designer"
+}, {
+  name: "Bhagyashree Rao",
+  designation: "Social Media Head"
+}, {
+  name: "Shalaka Naik",
+  designation: "Documentation Head"
+}, {
+  name: "Janvi Chadha",
+  designation: "Treasurer"
+}];
+
 var Team =
 /*#__PURE__*/
 function (_Component) {
@@ -33452,6 +33563,13 @@ function (_Component) {
   _createClass(Team, [{
     key: "render",
     value: function render() {
+      var membersList = members.map(function (m, key) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Member__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          key: key,
+          member: m,
+          time: key
+        });
+      });
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "page"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
@@ -33462,16 +33580,13 @@ function (_Component) {
         className: "container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         className: "section-title"
-      }, "Team"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Team"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "section-subtitle"
+      }, "Meet our awesome team."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "section-body"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "center",
-        style: {
-          marginTop: 100
-        }
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "typewriter"
-      }, "To be announced..."))))));
+        className: "center"
+      }, membersList)))));
     }
   }]);
 

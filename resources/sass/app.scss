@@ -33,6 +33,10 @@ p {
   font-size: 1.2em;
 }
 
+.hidden {
+  visibility: hidden !important;
+}
+
 .center {
   text-align: center;
 }
@@ -46,3 +50,4 @@ p {
 @import "sections/about";
 @import "sections/contact";
 @import "sections/speakers";
+@import "sections/team";
