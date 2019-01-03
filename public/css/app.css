@@ -2603,8 +2603,12 @@ footer {
 #home #countdown {
   margin: 0px auto 50px auto;
 }
+#home h1 {
+  text-transform: uppercase;
+}
 #home h1 span {
   color: #E93F33;
+  text-transform: uppercase;
 }
 
 #about {
