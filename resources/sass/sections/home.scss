@@ -1,0 +1,19 @@
+#home {
+  .backdrop {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url('/img/home.jpeg');
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.1;
+  }
+  #countdown {
+    margin: 0px auto 50px auto;
+  }
+  h1 span {
+    color: $primary-color;
+  }
+}

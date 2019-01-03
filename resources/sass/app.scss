@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 3em;
 }
 h2 {
   font-size: 2em;
@@ -47,7 +47,9 @@ p {
 @import "animations";
 @import "social";
 @import "input";
+@import "sections/home";
 @import "sections/about";
 @import "sections/contact";
 @import "sections/speakers";
 @import "sections/team";
+@import "styles/flipdown";

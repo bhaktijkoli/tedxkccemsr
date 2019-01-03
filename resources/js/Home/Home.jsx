@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 
+import CountDown from './CountDown';
+
 class Home extends Component {
   constructor(props) {
     super(props);
@@ -10,9 +12,9 @@ class Home extends Component {
     return (
       <div className="page">
         <section id="home">
+          <div className="backdrop"></div>
           <div className="nav-space"></div>
-          <div className="container">
-          </div>
+          <CountDown />
         </section>
         <section id="about">
           <div className="backdrop"></div>
