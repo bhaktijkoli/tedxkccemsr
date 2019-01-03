@@ -33620,9 +33620,6 @@ var members = [{
   name: "Bhagyashree Rao",
   designation: "Social Media Head"
 }, {
-  name: "Shalaka Naik",
-  designation: "Documentation Head"
-}, {
   name: "Janvi Chadha",
   designation: "Treasurer"
 }];
