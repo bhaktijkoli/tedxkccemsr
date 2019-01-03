@@ -1927,6 +1927,10 @@ html {
     align-self: stretch !important;
   }
 }
+.nav-transparent {
+  background-color: transparent !important;
+}
+
 #navbar {
   position: fixed;
   top: 0px;

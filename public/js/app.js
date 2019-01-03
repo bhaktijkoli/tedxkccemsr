@@ -32754,9 +32754,7 @@ function (_Component) {
       var date1 = new Date(2019, 1, 16);
       var date2 = new Date();
       var secs = Math.abs((date1.getTime() - date2.getTime()) / 1000);
-      console.log(secs);
       var twoDaysFromNow = new Date().getTime() / 1000 + secs + 1;
-      console.log(twoDaysFromNow);
       new FlipDown(twoDaysFromNow, 'countdown', {
         theme: 'light'
       }).start();
@@ -32833,6 +32831,12 @@ function (_Component) {
   }
 
   _createClass(Home, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      navbar.classList.add('nav-transparent');
+      window.addEventListener('scroll', this.checkScroll);
+    }
+  }, {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -32872,6 +32876,17 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Theme"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "/img/theme.png"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "With the advent of modern technology, human sciences and habitat, the challenges we face have also changed. Thus, the traditional ways of tackling them fail. Here arises the need of redefining perspectives.\u2028"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Perspectives inspire decisions and your decisions fuel your actions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Similarly, each individual has his or her own perspective when placed in common circumstance. However, the most unorthodox, original, economically and environmentally profiting perspective thrives the longest in a race."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The famous Penrose triangle is recognized as 'Impossibility in it's purest form'. At first glance, it's a three shade triangle with no possible story to tell, but on further inspection the complexity of the Penrose triangle from every angle puts our thought into a paradoxical perspective of everything we see."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "We believe that making the impossible, possible is no lesser than an evolution of progress.\u2028\u2028All you need is a redefined perspective to look at problem, adapt a bright idea and live through it.")))))));
+    }
+  }, {
+    key: "checkScroll",
+    value: function checkScroll() {
+      var navbar = document.getElementById('navbar');
+
+      if (window.scrollY > 70) {
+        navbar.classList.remove('nav-transparent');
+      } else {
+        navbar.classList.add('nav-transparent');
+      }
     }
   }]);
 

@@ -12,11 +12,7 @@ class CountDown extends Component {
     var date2 = new Date();
 
     var secs = Math.abs((date1.getTime() - date2.getTime())/ 1000);
-    console.log(secs);
-
     var twoDaysFromNow = (new Date().getTime() / 1000) + secs + 1;
-
-    console.log(twoDaysFromNow);
 
     new FlipDown(twoDaysFromNow, 'countdown', {theme: 'light'}).start();
   }

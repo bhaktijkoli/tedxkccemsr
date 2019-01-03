@@ -8,6 +8,10 @@ class Home extends Component {
     super(props);
     document.title = "TEDx KCCEMSR"
   }
+  componentDidMount() {
+    navbar.classList.add('nav-transparent');
+    window.addEventListener('scroll', this.checkScroll);
+  }
   render() {
     return (
       <div className="page">
@@ -55,6 +59,14 @@ class Home extends Component {
         </section>
       </div>
     );
+  }
+  checkScroll() {
+    let navbar = document.getElementById('navbar');
+    if(window.scrollY > 70) {
+      navbar.classList.remove('nav-transparent');
+    } else {
+      navbar.classList.add('nav-transparent');
+    }
   }
 }
 
