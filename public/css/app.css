@@ -2602,7 +2602,7 @@ footer {
   background-image: url("/img/home.jpeg");
   background-size: cover;
   z-index: -1;
-  opacity: 0.1;
+  opacity: 0.3;
 }
 #home #countdown {
   margin: 0px auto 50px auto;

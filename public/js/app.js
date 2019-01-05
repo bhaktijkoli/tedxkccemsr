@@ -33560,7 +33560,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "backdrop"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://via.placeholder.com/220x220"
+        src: "/img/team/" + this.props.member.tag + ".jpg"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         className: "name"
       }, this.props.member.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
@@ -33612,31 +33612,40 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 var members = [{
   name: "Rahul Nair",
-  designation: "Organizer"
+  designation: "Organizer",
+  tag: 'rahul_nair'
 }, {
   name: "Minal Acharya",
-  designation: "Curator"
+  designation: "Curator",
+  tag: "minal_acharya"
 }, {
   name: "Mayuresh Rane",
-  designation: "Logistics & production head"
+  designation: "Logistics & production head",
+  tag: "mayuresh_rane"
 }, {
   name: "Unmesh Sawant",
-  designation: "Co-organizer"
+  designation: "Co-organizer",
+  tag: "unmesh_sawant"
 }, {
   name: "Simran Rane",
-  designation: "Marketing Director"
+  designation: "Marketing Director",
+  tag: "simran_rane"
 }, {
   name: "Atharv Parte",
-  designation: "Graphic Designer"
+  designation: "Graphic Designer",
+  tag: "atharv_parte"
 }, {
   name: "Abhishek Prajapati",
-  designation: "Graphic Designer"
+  designation: "Graphic Designer",
+  tag: "abhishek_prajapati"
 }, {
   name: "Bhagyashree Rao",
-  designation: "Social Media Head"
+  designation: "Social Media Head",
+  tag: "bhagyashree_rao"
 }, {
   name: "Janvi Chadha",
-  designation: "Treasurer"
+  designation: "Treasurer",
+  tag: "janvi_chadha"
 }];
 
 var Team =

@@ -16,7 +16,7 @@ class Member extends Component {
     return (
       <div className="member hidden" ref="member">
         <div className="backdrop"></div>
-        <img src="https://via.placeholder.com/220x220"/>
+        <img src={"/img/team/"+this.props.member.tag+".jpg"}/>
         <h3 className="name">{this.props.member.name}</h3>
         <h4 className="designation">{this.props.member.designation}</h4>
       </div>

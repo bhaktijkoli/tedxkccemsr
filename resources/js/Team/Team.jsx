@@ -7,38 +7,47 @@ let members = [
   {
     name: "Rahul Nair",
     designation: "Organizer",
+    tag: 'rahul_nair',
   },
   {
     name: "Minal Acharya",
     designation: "Curator",
+    tag: "minal_acharya",
   },
   {
     name: "Mayuresh Rane",
     designation: "Logistics & production head",
+    tag: "mayuresh_rane",
   },
   {
     name: "Unmesh Sawant",
     designation: "Co-organizer",
+    tag: "unmesh_sawant",
   },
   {
     name: "Simran Rane",
     designation: "Marketing Director",
+    tag: "simran_rane",
   },
   {
     name: "Atharv Parte",
     designation: "Graphic Designer",
+    tag: "atharv_parte",
   },
   {
     name: "Abhishek Prajapati",
     designation: "Graphic Designer",
+    tag: "abhishek_prajapati",
   },
   {
     name: "Bhagyashree Rao",
     designation: "Social Media Head",
+    tag: "bhagyashree_rao",
   },
   {
     name: "Janvi Chadha",
     designation: "Treasurer",
+    tag: "janvi_chadha",
   },
 ]
 
