@@ -51,7 +51,7 @@ class Home extends Component {
                   <p>Perspectives inspire decisions and your decisions fuel your actions.</p>
                   <p>Similarly, each individual has his or her own perspective when placed in common circumstance. However, the most unorthodox, original, economically and environmentally profiting perspective thrives the longest in a race.</p>
                   <p>The famous Penrose triangle is recognized as "Impossibility in it's purest form". At first glance, it's a three shade triangle with no possible story to tell, but on further inspection the complexity of the Penrose triangle from every angle puts our thought into a paradoxical perspective of everything we see.</p>
-                  <p>We believe that making the impossible, possible is no lesser than an evolution of progress.  All you need is a redefined perspective to look at problem, adapt a bright idea and live through it.</p>
+                  <p>We believe that making the impossible, possible is no lesser than an evolution of progress.   All you need is a redefined perspective to look at problem, adapt a bright idea and live through it.</p>
                 </div>
               </div>
             </div>
