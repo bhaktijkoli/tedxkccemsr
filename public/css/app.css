@@ -2686,6 +2686,7 @@ footer {
   z-index: -1;
 }
 #speakers .backdrop img {
+  position: fixed;
   margin-top: 200px;
   margin-left: 50%;
   opacity: 0.02;
