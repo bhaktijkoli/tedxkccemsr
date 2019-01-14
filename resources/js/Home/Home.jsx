@@ -19,6 +19,9 @@ class Home extends Component {
           <div className="backdrop"></div>
           <div className="nav-space"></div>
           <CountDown />
+          <div className="center">
+            <a href="/register" className="bttn">Register Now</a>
+          </div>
           <div className="scroll-downs">
             <div className="mousey">
               <div className="scroller"></div>

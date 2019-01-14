@@ -29,6 +29,7 @@ Route::get('/dbreset', function() {
 
 
 Route::get('/', 'IndexController@index');
+Route::get('/register', 'IndexController@register');
 Route::get('/{any}', 'IndexController@index')->where('any', '(.*)');
 
 Route::prefix('api')->group(function () {
