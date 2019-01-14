@@ -36,7 +36,7 @@ class Home extends Component {
                 </div>
                 <div className="col-sm-6">
                   <h3>TEDx</h3>
-                  <span>TEDx is an international community that organizes TED-style events anywhere and everywhere -- celebrating locally-driven ideas and elevating them to a global stage. TEDx events are produced independently of TED conferences, each event curates speakers on their own, but based on TED's format and rules.At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. These local, self-organized events are branded TEDx, where x = independently organized TED event.</span>
+                  <span>TEDx is an international community that organizes TED-style events anywhere and everywhere -- celebrating locally-driven ideas and elevating them to a global stage. TEDx events are produced independently of TED conferences, each event curates speakers on their own, but based on TED's format and rules. At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. These local, self-organized events are branded TEDx, where x = independently organized TED event.</span>
                 </div>
                 <div className="col-sm-12">
                   <h3>What Is TEDxKCCEMSR?</h3>
@@ -50,7 +50,7 @@ class Home extends Component {
                   <p>With the advent of modern technology, human sciences and habitat, the challenges we face have also changed. Thus, the traditional ways of tackling them fail. Here arises the need of redefining perspectives. </p>
                   <p>Perspectives inspire decisions and your decisions fuel your actions.</p>
                   <p>Similarly, each individual has his or her own perspective when placed in common circumstance. However, the most unorthodox, original, economically and environmentally profiting perspective thrives the longest in a race.</p>
-                  <p>The famous Penrose triangle is recognized as 'Impossibility in it's purest form'. At first glance, it's a three shade triangle with no possible story to tell, but on further inspection the complexity of the Penrose triangle from every angle puts our thought into a paradoxical perspective of everything we see.</p>
+                  <p>The famous Penrose triangle is recognized as "Impossibility in it's purest form". At first glance, it's a three shade triangle with no possible story to tell, but on further inspection the complexity of the Penrose triangle from every angle puts our thought into a paradoxical perspective of everything we see.</p>
                   <p>We believe that making the impossible, possible is no lesser than an evolution of progress.  All you need is a redefined perspective to look at problem, adapt a bright idea and live through it.</p>
                 </div>
               </div>
