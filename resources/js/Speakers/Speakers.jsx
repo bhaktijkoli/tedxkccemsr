@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 
+import Speaker from './Speaker';
+
+let data = require('./data.js')
+
 class Speakers extends Component {
   constructor(props) {
     super(props);
     document.title = "TEDx KCCEMSR - Speakers"
   }
   render() {
+    let speakersList = data.map((el, key) => {
+      return   <Speaker speaker={el} key={key} time={key}/>
+    })
     return (
       <div className="page">
         <section id="speakers">
@@ -17,8 +24,8 @@ class Speakers extends Component {
           <div className="container">
             <h2 className="section-title">Speakers</h2>
             <div className="section-body">
-              <div className="center" style={{marginTop:100}}>
-                <span className="typewriter">To be announced...</span>
+              <div className="center">
+                {speakersList}
               </div>
             </div>
           </div>

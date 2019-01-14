@@ -41,6 +41,22 @@ p {
   text-align: center;
 }
 
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}
+
 @import "grid";
 @import "navbar";
 @import "section";
