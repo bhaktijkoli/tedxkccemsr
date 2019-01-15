@@ -8,7 +8,7 @@ let data = require('./data.js')
 class Speakers extends Component {
   constructor(props) {
     super(props);
-    document.title = "TEDx KCCEMSR - Speakers"
+    document.title = "TEDxKCCEMSR - Speakers"
   }
   render() {
     let speakersList = data.map((el, key) => {

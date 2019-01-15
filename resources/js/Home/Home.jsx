@@ -6,7 +6,7 @@ import CountDown from './CountDown';
 class Home extends Component {
   constructor(props) {
     super(props);
-    document.title = "TEDx KCCEMSR"
+    document.title = "TEDxKCCEMSR"
   }
   componentDidMount() {
     navbar.classList.add('nav-transparent');

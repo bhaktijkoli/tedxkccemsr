@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom';
 class Contact extends Component {
   constructor(props) {
     super(props);
-    document.title = "TEDx KCCEMSR - Contact"
+    document.title = "TEDxKCCEMSR - Contact"
   }
   render() {
     return (

@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom';
 class Partners extends Component {
   constructor(props) {
     super(props);
-    document.title = "TEDx KCCEMSR - Partners"
+    document.title = "TEDxKCCEMSR - Partners"
   }
   render() {
     return (

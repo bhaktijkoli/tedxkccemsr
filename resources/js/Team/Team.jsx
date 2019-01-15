@@ -54,7 +54,7 @@ let members = [
 class Team extends Component {
   constructor(props) {
     super(props);
-    document.title = "TEDx KCCEMSR - Team"
+    document.title = "TEDxKCCEMSR - Team"
   }
   render() {
     let membersList = members.map((m, key)=> {
