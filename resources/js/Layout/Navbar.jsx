@@ -59,6 +59,8 @@ class Navbar extends Component {
     let comp = this;
     let page = document.querySelector('.page');
     page.classList.add('fadeOutLeft');
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
     setTimeout(()=> {
       comp.props.history.push(menu);
     }, 500);
