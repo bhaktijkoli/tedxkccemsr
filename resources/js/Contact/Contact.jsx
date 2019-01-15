@@ -13,7 +13,7 @@ class Contact extends Component {
           <div className="nav-space"></div>
           <div className="container">
             <h2 className="section-title">Contact</h2>
-            <p className="section-subtitle">Have any quires? feel free to contact us.</p>
+            <p className="section-subtitle">Have any queries? feel free to contact us.</p>
             <div className="section-body">
               <div className="row">
                 <div className="col-sm-6">

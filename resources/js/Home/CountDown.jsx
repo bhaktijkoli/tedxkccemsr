@@ -20,7 +20,7 @@ class CountDown extends Component {
     return (
       <div className="container">
         <div className="center">
-          <h1><span>Redifining</span> Perspective</h1>
+          <h1><span>Redefining</span> Perspective</h1>
           <div id="countdown" className="flipdown"></div>
           <span>A platform to bring leading thinkers and unheard voices, to share ideas worth spreading to local communities.</span>
         </div>
