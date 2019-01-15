@@ -1,7 +1,7 @@
 module.exports = [
   {
     name: 'Burhaan Kinu',
-    designation: 'Senior',
+    designation: 'Photo Journalist (HT)',
     image: 'burhaan_kinu',
   },
   {
