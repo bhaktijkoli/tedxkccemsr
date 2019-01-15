@@ -14,7 +14,7 @@ class Speaker extends Component {
   }
   render() {
     return (
-      <div className="speaker hidden" ref="speaker">
+      <div className="speaker hidden" ref="speaker" onClick={this.onSpeakerClick.bind(this)}>
         <div className="speaker-box">
           <img src={"/img/speakers/" + this.props.speaker.image +".png"} width="220" alt={this.props.speaker.name}/>
         </div>
@@ -22,6 +22,17 @@ class Speaker extends Component {
         <h4 className="designation">{this.props.speaker.designation}</h4>
       </div>
     );
+  }
+  onSpeakerClick() {
+    Swal({
+      // imageUrl: "/img/speakers/" + this.props.speaker.image +".png",
+      // imageWidth: 160,
+      title: this.props.speaker.name,
+      html: `<div style="text-align:justify">${this.props.speaker.bio}</div>`,
+      confirmButtonText: 'Ok',
+      confirmButtonClass: 'button',
+      buttonsStyling: false,
+    })
   }
 }
 
