@@ -19,5 +19,13 @@
 <body>
   <div id="root"></div>
 <script type="text/javascript" src="/js/app.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132525493-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-132525493-1');
+</script>
+
 </body>
 </html>
